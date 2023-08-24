@@ -1,0 +1,40 @@
+body {
+    background-color:#a7fba7;
+}
+.main {
+    text-align:center;
+
+}
+.wel {
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+}
+.ques{
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}
+.yesno{
+	color:black;
+	font-size:15px;
+	font-weight:bold;
+}
+.button1{
+	padding:4px 10px;
+	font-size:15px;
+}
+.yesbox{
+  background-color: #a7fba7;
+  height: 300px;
+  width: 500px;
+  border: 2.5px solid green;
+  margin: 20px;
+}
+.nobox{
+  background-color: #a7fba7;
+  height: 500px;
+  width:650px;
+  border: 2.5px solid green;
+  margin: 20px;
+}

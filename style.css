@@ -1,0 +1,47 @@
+body {
+    background-color:#a7fba7;
+}
+.main {
+    text-align:center;
+    padding:125px;
+}
+.GFG {
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+}
+.geeks {
+    font-style:bold;
+    font-size:20px;
+}
+.last {
+	font-size:20px;
+	font-weight:bold;
+}
+.color {
+	color:black;
+}
+.button{
+	padding:10px;
+	width:15%;
+	height:100%;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#2dae65;
+	color:white;
+}
+.box{
+	padding:5px;
+	padding-right:75px;
+	vertical-align:middle;
+	width:20%;
+	height:100%
+	font-size:10px;
+	font-weight:bold;
+	background-color:white;
+}
+.required-star {
+    color: red;
+    font-size: 14px;
+    vertical-align: middle;
+}

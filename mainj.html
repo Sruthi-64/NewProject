@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="newstyle.css" />
+	<script src="validate.js"></script>
+</head>
+<body>
+    
+	<div class="main">
+	<center>
+		<div class="GFG">TEXTBOX BELOW</div>
+		<div class="geeks">
+			<div class="last">Enter your name and password</div>
+		</div><br>
+		<form name="myForm" >
+		    <label class="last" for="fname" >Name <span class="required-star">*</span> :  </label>
+			<input  class="box" type="text" id="fname" name="fname" ><br><br>
+			<label class="last"for="pword">Password <span class="required-star">*</span> :  </label>
+			<input class="box" type="text" id="pword" name="pword" ><br><br>
+			<div class="last">Click on the submit button to submit the form.</div><br>
+			<input class="button" type="submit" value="Submit" onclick="validateForm()">
+        </form>
+        <br>
+		<button class="button" type="submit">Login</button><br><br>
+		<button class="button1" onclick="window.location.href = 'new.html';">Home</button>
+	</center>	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="newstyle.css" />
+	<script src="validate.js"></script>
+</head>
+<body>
+    
+	<div class="main">
+	<center>
+		<div class="geeks">
+			<div class="last">Enter user information</div>
+		</div><br>
+		<form name="myForm" >
+		    <label class="last" for="fname" >First Name <span class="required-star">*</span> :  </label>
+			<input  class="box" type="text" id="fname" name="fname" ><br><br>
+			<label class="last"for="lname">Last Name<span class="required-star">*</span> :  </label>
+			<input class="box" type="text" id="lname" name="lnmae" ><br><br>
+			<label class="last"for="gend">Gender<span class="required-star">*</span> :  </label>
+			<select id="gend" class="button1">
+				<option value="Select" class="yesno" onclick="window.location.href = 'mainj.html';">Select</option>
+				<option value="Male" class="yesno">Male</option>
+				<option value="Female" class="yesno">Female</option>
+			</select><br><br>
+			<label class="last" for="birthday">Birthday<span class="required-star">*</span>:</label>
+			<input class="button1" type="date" id="birthday" name="birthday"><br><br>
+			<label class="last" for="email" >E-mail <span class="required-star">*</span> :  </label>
+			<input  class="box" type="text" id="email" name="email" ><br><br>
+			<label class="last"for="pword">Password <span class="required-star">*</span> :  </label>
+			<input class="box" type="text" id="pword" name="pword" ><br><br>
+			
+			<!--<div class="last">Click on the submit button to submit the form.</div><br>
+			<input class="button" type="submit" value="Submit" onclick="validateForm()">-->
+        </form>
+        <br>
+		<button class="button" type="submit" onclick="validateFormNo()">Create Account</button><br><br>
+		<button class="button1" onclick="window.location.href = 'new.html';">Home</button>
+	</center>	
+	</div>
+
+</body>
+</html>
