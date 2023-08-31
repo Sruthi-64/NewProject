@@ -83,20 +83,18 @@ function validateFormNo() {
   } 
 } 
 
-
-function calculateAge() 
-{
-	console.log('Inside calculateAge function');
-	var dob =document.getElementById("birthday").value;
+function calculateAge() { 
+	var dob = document.getElementById("birthday").value;
 	console.log("dob"+dob);
-	  //calculate month difference from current date in time  
-    var month_diff = Date.now() - dob.getTime();      
-    //convert the calculated difference in date format  
-    var age_dt = new Date(month_diff);       
-    //extract year from date      
-    var year = age_dt.getUTCFullYear();      
-    //now calculate the age of the user  
-    var age = Math.abs(year - 1970);       
-    //display the calculated age  	
+	var dob_date = new Date (dob);
+	console.log("dob_date"+dob_date);
+    var diff_ms = Date.now() - dob_date.getTime();
+    var age_dt = new Date(diff_ms); 
+  
+    var age =  Math.abs(age_dt.getUTCFullYear() - 1970);
 	console.log("age"+age);
+	document.getElementById("age").value = age;
 }
+
+
+
